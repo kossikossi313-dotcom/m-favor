@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M-FAVOR - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">M-FAVOR</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="">Accueil</a></li>
+                <li><a href="about.html" class="">À Propos</a></li>
+                <li><a href="services.html" class="">Services</a></li>
+                <li><a href="realisations.html" class="">Réalisations</a></li>
+                <li><a href="gallery.html" class="">Galerie</a></li>
+                <li><a href="videos.html" class="">Vidéos</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title">Contactez-nous</h2>
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label for="name">Nom Complet</label>
+                <input type="text" id="name" required placeholder="Votre nom">
+            </div>
+            <div class="form-group">
+                <label for="email">Adresse Email</label>
+                <input type="email" id="email" required placeholder="votre@email.com">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required placeholder="Votre message..."></textarea>
+            </div>
+            <button type="submit" class="btn">Envoyer le message</button>
+        </form>
+    </main>
+
+    <!-- Bouton WhatsApp Flottant -->
+    <a href="https://wa.me/22900000000?text=Bonjour%20M-FAVOR,%20je%20souhaite%20en%20savoir%20plus%20sur%20vos%20services." 
+       class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Contactez-nous sur WhatsApp">
+        💬
+    </a>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 M-FAVOR. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

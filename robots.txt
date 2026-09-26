@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://m-favor.github.io/sitemap.xml
